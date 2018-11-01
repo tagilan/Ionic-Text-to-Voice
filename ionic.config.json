@@ -1,0 +1,7 @@
+{
+  "name": "ionicText2Speach",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

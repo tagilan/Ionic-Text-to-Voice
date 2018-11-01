@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Text to Speach
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let item of list">
+    <ion-card-content>
+      {{item.content}}
+    </ion-card-content>
+  </ion-card>
+
+  <button (click)="nextItem()" [disabled]="list.length == 5" ion-button full>Next</button>
+</ion-content>
